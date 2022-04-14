@@ -1,0 +1,17 @@
+VAR
+	gAxis01 : ACP10AXIS_typ;
+	gAxis01_HW : SdcHwCfg_typ := (0);
+	gAxis01_DrvIf : SdcDrvIf16_typ := (0);
+	gAxis01_DiDoIf : SdcDiDoIf_typ := (0);
+	gAxis01_ModuleOk : BOOL := 0;
+	EVIRD : DRIVE;
+	speed : INT := 500;
+	Led_Buttons : ARRAY[0..3] OF BOOL;
+	LED : ARRAY[0..3] OF BOOL;
+	blink : BOOL;
+	button1 : BOOL;
+	button2 : BOOL;
+	button3 : BOOL;
+	button4 : BOOL;
+	button5 : BOOL;
+END_VAR
